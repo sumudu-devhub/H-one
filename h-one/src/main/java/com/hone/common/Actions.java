@@ -43,8 +43,12 @@ public class Actions {
 		String text = null;
 		WebElement object = wait.until(ec.presenceOfElementLocated((element)));
 		text = object.getText();
+		System.out.println(text);
 		return text;
+	
 	}
+	
+	
 
 	/**
 	 * Not recommended for web automation. use maximum 15 seconds, otherwise
