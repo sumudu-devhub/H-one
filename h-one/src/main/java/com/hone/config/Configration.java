@@ -46,6 +46,9 @@ public class Configration {
 		driver.quit();
 
 	}
+	
+	
+	//Sumudu Test
 
 	public static String getData(String key) throws IOException, ParseException {
 		JSONParser jsonParser = new JSONParser();
